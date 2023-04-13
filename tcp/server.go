@@ -70,6 +70,7 @@ func ListenAndServe(
 		}
 		// handle
 		logger.Info("accept link")
+		waitDone.Add(1)
 		go func() {
 			defer func() {
 				waitDone.Done()
