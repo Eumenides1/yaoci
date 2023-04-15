@@ -5,6 +5,7 @@ import (
 	"os"
 	"yaoci/config"
 	"yaoci/lib/logger"
+	"yaoci/resp/handler"
 	"yaoci/tcp"
 )
 
@@ -16,7 +17,7 @@ var defaultProperties = &config.ServerProperties{
 }
 
 func fileExists(filename string) bool {
-	info, err := os.Stat(configFile)
+	info, err := os.Stat(filename)
 	return err == nil && !info.IsDir()
 }
 
@@ -39,7 +40,7 @@ func main() {
 				config.Properties.Bind,
 				config.Properties.Port),
 		},
-		tcp.MakeHandler())
+		handler.MakeHandler())
 	if err != nil {
 		logger.Error(err)
 	}
