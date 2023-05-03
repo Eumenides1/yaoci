@@ -1,0 +1,26 @@
+[INFO][server.go:39] 2023/05/03 11:05:13 start listen
+[INFO][server.go:72] 2023/05/03 11:06:50 accept link
+[ERROR][handler.go:74] 2023/05/03 11:06:57 empty payload
+[ERROR][handler.go:74] 2023/05/03 11:07:04 empty payload
+[ERROR][handler.go:74] 2023/05/03 11:07:05 empty payload
+[ERROR][handler.go:74] 2023/05/03 11:07:10 empty payload
+[ERROR][handler.go:74] 2023/05/03 11:07:10 empty payload
+[ERROR][handler.go:74] 2023/05/03 11:07:10 empty payload
+[INFO][handler.go:60] 2023/05/03 11:07:25 connection closed: 127.0.0.1:63232
+[INFO][server.go:72] 2023/05/03 11:07:53 accept link
+[ERROR][parser.go:46] 2023/05/03 11:13:09 goroutine 5 [running]:
+runtime/debug.Stack()
+	/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65
+yaoci/resp/parser.parse0.func1()
+	/Users/ashbur/Desktop/study_file/yaoci/resp/parser/parser.go:46 +0x2a
+panic({0x1105420, 0xc00001e078})
+	/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212
+yaoci/resp/parser.readLine(0xc00001c128?, 0xc00005ff10?)
+	/Users/ashbur/Desktop/study_file/yaoci/resp/parser/parser.go:152 +0x257
+yaoci/resp/parser.parse0({0x1749f78?, 0xc0000ac048?}, 0x0?)
+	/Users/ashbur/Desktop/study_file/yaoci/resp/parser/parser.go:55 +0x20a
+created by yaoci/resp/parser.ParseStream
+	/Users/ashbur/Desktop/study_file/yaoci/resp/parser/parser.go:38 +0x98
+
+[INFO][server.go:52] 2023/05/03 11:25:40 shutting down...
+[INFO][handler.go:93] 2023/05/03 11:25:40 handler shutting down...

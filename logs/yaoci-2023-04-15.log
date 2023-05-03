@@ -106,3 +106,71 @@
 [INFO][echo_database.go:25] 2023/04/15 22:22:31 EchoDatabase Close
 [INFO][server.go:39] 2023/04/15 22:22:32 start listen
 [INFO][server.go:72] 2023/04/15 22:24:37 accept link
+[INFO][echo_database.go:21] 2023/04/15 22:29:21 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:29:21 connection closed: 127.0.0.1:57905
+[INFO][server.go:72] 2023/04/15 22:32:55 accept link
+[ERROR][handler.go:79] 2023/04/15 22:33:04 require multi bulk reply
+[INFO][server.go:52] 2023/04/15 22:34:31 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:34:31 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:34:31 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/15 22:34:31 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:34:31 connection closed: 127.0.0.1:59161
+[INFO][handler.go:93] 2023/04/15 22:34:31 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:34:31 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:34:34 start listen
+[INFO][server.go:72] 2023/04/15 22:34:39 accept link
+[ERROR][handler.go:79] 2023/04/15 22:34:42 require multi bulk reply
+[INFO][server.go:52] 2023/04/15 22:35:02 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:35:02 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:35:02 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/15 22:35:02 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:35:02 connection closed: 127.0.0.1:59361
+[INFO][handler.go:93] 2023/04/15 22:35:02 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:35:02 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:35:03 start listen
+[INFO][server.go:72] 2023/04/15 22:35:06 accept link
+[ERROR][handler.go:79] 2023/04/15 22:35:49 require multi bulk reply
+[INFO][server.go:52] 2023/04/15 22:35:49 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:35:49 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:35:49 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/15 22:35:49 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:35:49 connection closed: 127.0.0.1:59441
+[INFO][handler.go:93] 2023/04/15 22:35:49 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:35:49 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:35:49 start listen
+[INFO][server.go:72] 2023/04/15 22:36:50 accept link
+[INFO][server.go:52] 2023/04/15 22:37:31 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:37:31 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:37:31 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/15 22:37:31 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:37:31 connection closed: 127.0.0.1:59652
+[INFO][handler.go:93] 2023/04/15 22:37:31 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:37:31 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:37:32 start listen
+[INFO][server.go:72] 2023/04/15 22:37:34 accept link
+[INFO][server.go:52] 2023/04/15 22:37:50 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:37:50 handler shutting down...
+[INFO][echo_database.go:21] 2023/04/15 22:37:50 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:37:50 connection closed: 127.0.0.1:59732
+[INFO][handler.go:93] 2023/04/15 22:37:50 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:37:50 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:37:50 start listen
+[INFO][server.go:72] 2023/04/15 22:37:53 accept link
+[ERROR][handler.go:74] 2023/04/15 22:39:30 empty payload
+[INFO][server.go:52] 2023/04/15 22:39:30 shutting down...
+[INFO][handler.go:93] 2023/04/15 22:39:30 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:39:30 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/15 22:39:30 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/15 22:39:30 connection closed: 127.0.0.1:59777
+[INFO][handler.go:93] 2023/04/15 22:39:30 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/15 22:39:30 EchoDatabase Close
+[INFO][server.go:39] 2023/04/15 22:39:31 start listen
+[INFO][server.go:72] 2023/04/15 22:39:40 accept link
+[ERROR][handler.go:79] 2023/04/15 22:39:44 require multi bulk reply
+[INFO][server.go:52] 2023/04/16 12:59:32 shutting down...
+[INFO][handler.go:93] 2023/04/16 12:59:32 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/16 12:59:32 EchoDatabase Close
+[INFO][echo_database.go:21] 2023/04/16 12:59:32 EchoDatabase AfterClientClose
+[INFO][handler.go:60] 2023/04/16 12:59:32 connection closed: 127.0.0.1:60126
+[INFO][handler.go:93] 2023/04/16 12:59:32 handler shutting down...
+[INFO][echo_database.go:25] 2023/04/16 12:59:32 EchoDatabase Close
